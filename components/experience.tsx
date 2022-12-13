@@ -16,9 +16,9 @@ export default function Experience() {
             </h1>
           </div>
           <h2 className="text-lg text-gray-700 dark:text-gray-300">
-            Junes 2021 to Present
+            June 2021 to Present
           </h2>{" "}
-          <ul className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
+          <ul className="text-lg text-gray-800 dark:text-gray-100">
             <li className="mt-2">
               • Developed a platform that managed +150 web applications,
               providing security solutions with a modern and simple to use
@@ -58,14 +58,14 @@ export default function Experience() {
             <h1 className="text-gray-700 dark:text-gray-300">
               Buenos Aires // Argentina
             </h1>
-            <h1 className="text-purple-600 dark:text-purple-400 font-bold mr-auto">
+            <h1 className="text-purple-600 dark:text-purple-400 mr-auto">
               Full Stack Developer // Henry Bootcamp
             </h1>
           </div>
           <h2 className="text-lg text-gray-700 dark:text-gray-300">
             March 2021 to May 2021
           </h2>{" "}
-          <ul className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
+          <ul className="text-lg text-gray-800 dark:text-gray-100">
             <li className="mt-2">
               • Led the back-end and front end development of a 5+ person team
               creating an ecommerce website, providing useful features such as
