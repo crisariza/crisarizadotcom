@@ -28,7 +28,7 @@ export default function Contact() {
           <div className="flex justify-content mt-4">
             <div className="mr-4">
               <a
-                href="https://crisariza.com/cristian-ariza_resume_front-end-developer.pdf"
+                href="https://crisariza.com/Cristian-Ariza_Resume_Front-End-Developer.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-purple-600 rounded-lg"
