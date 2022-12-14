@@ -18,7 +18,7 @@ export default function Contact() {
           {" "}
           Looking forward to create new complex software engineering projects.
         </h1>
-        <p className="border-l-4 border-gray-500 pl-4 mt-4">
+        <p className="border-l-4 border-neutral-500 pl-4 mt-4">
           {" "}
           Thrilled to use programming skills to help an amazing company create a
           fantastic product. Excited about business, startups, crypto and
@@ -51,7 +51,8 @@ export default function Contact() {
               <a
                 href="https://github.com/crisariza"
                 target="_blank"
-                rel="noopener noreferrer"                className="hover:text-purple-300"
+                rel="noopener noreferrer"
+                className="hover:text-purple-300"
               >
                 Github
               </a>

@@ -6,7 +6,7 @@ import Skills from "../components/skills";
 import Experience from "../components/experience";
 
 const Divider = () => {
-  return <div className="border-t border-gray-500 h-2 mt-5 mb-5"></div>;
+  return <div className="border-t border-neutral-500 h-2 mt-5 mb-5"></div>;
 };
 
 export default function Home() {
