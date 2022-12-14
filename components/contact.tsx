@@ -31,7 +31,7 @@ export default function Contact() {
                 href="https://crisariza.com/Cristian-Ariza_Resume_Front-End-Developer.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-purple-600 rounded-lg"
+                className="p-2 bg-purple-600 rounded-lg hover:bg-purple-800"
               >
                 {" "}
                 Get my resume
@@ -42,6 +42,7 @@ export default function Contact() {
                 href="https://linkedin.com/in/crisariza"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="hover:text-purple-300"
               >
                 Linkedin
               </a>{" "}
@@ -50,7 +51,7 @@ export default function Contact() {
               <a
                 href="https://github.com/crisariza"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer"                className="hover:text-purple-300"
               >
                 Github
               </a>
