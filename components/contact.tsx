@@ -47,7 +47,7 @@ export default function Contact() {
                 Linkedin
               </a>{" "}
             </div>
-            <div className="flex justify-content  underline">
+            <div className="flex justify-content pr-4 underline">
               <a
                 href="https://github.com/crisariza"
                 target="_blank"
@@ -56,6 +56,9 @@ export default function Contact() {
               >
                 Github
               </a>
+            </div>
+            <div className="flex justify-content underline">
+              mecrisariza@gmail.com
             </div>
           </div>
         </div>
