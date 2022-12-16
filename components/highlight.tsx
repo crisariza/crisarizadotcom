@@ -11,14 +11,15 @@ export default function Highlight() {
           over quantity.
         </p>
       </div>
-
-      <Image
-        src="/draw.png"
-        alt="Person coding"
-        width={300}
-        height={150}
-        className="p-2"
-      />
+      <div className="w-auto lg:w-2/6">
+        <Image
+          src="/draw.png"
+          alt="Person coding"
+          width={300}
+          height={150}
+          className="p-2"
+        />
+      </div>
     </div>
   );
 }

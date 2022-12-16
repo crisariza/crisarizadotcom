@@ -7,8 +7,8 @@ export default function Contact() {
         <Image
           src="/me.png"
           alt="Cristian Ariza face"
-          width={150}
-          height={50}
+          width={300}
+          height={100}
           className="rounded-full m-auto"
         />
       </div>
@@ -24,42 +24,42 @@ export default function Contact() {
           fantastic product. Excited about business, startups, crypto and
           cutting-edge tech.
         </p>
-        <div className="mb-4">
-          <div className="flex justify-content mt-4">
-            <div className="mr-4">
-              <a
-                href="https://crisariza.com/Cristian-Ariza_Resume_Front-End-Developer.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-purple-600 rounded-lg hover:bg-purple-800"
-              >
-                {" "}
+        <div className="flex justify-content mt-4 mb-4">
+          {" "}
+          <div className="mr-4">
+            {" "}
+            <a
+              href="https://crisariza.com/Cristian-Ariza_Resume_Front-End-Developer.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="p-2 bg-purple-600 rounded-lg hover:bg-purple-800">
                 Get my resume
-              </a>
-            </div>
-            <div className="flex justify-content pr-4 underline">
-              <a
-                href="https://linkedin.com/in/crisariza"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-purple-300"
-              >
-                Linkedin
-              </a>{" "}
-            </div>
-            <div className="flex justify-content pr-4 underline">
-              <a
-                href="https://github.com/crisariza"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-purple-300"
-              >
-                Github
-              </a>
-            </div>
-            <div className="flex justify-content underline">
-              mecrisariza@gmail.com
-            </div>
+              </button>{" "}
+            </a>{" "}
+          </div>
+          <div className="flex items-center justify-center mr-4 underline">
+            <a
+              href="https://linkedin.com/in/crisariza"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-purple-300"
+            >
+              Linkedin
+            </a>{" "}
+          </div>
+          <div className="flex items-center justify-center mr-4 underline">
+            <a
+              href="https://github.com/crisariza"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-purple-300"
+            >
+              Github
+            </a>
+          </div>
+          <div className="flex items-center justify-center underline">
+            mecrisariza@gmail.com
           </div>
         </div>
       </div>
