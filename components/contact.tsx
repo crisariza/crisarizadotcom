@@ -1,19 +1,19 @@
 import Image from "next/image";
+import profilePic from "../public/profilePic.png";
 
 export default function Contact() {
   return (
-    <div className="flex justify-content">
+    <div className="sm:flex sm:justify-content">
       <div className="w-2/5 m-auto">
         <Image
-          src="/me.png"
-          alt="Cristian Ariza face"
-          width={300}
-          height={100}
+          src={profilePic}
+          alt="Profile Picture"
           className="rounded-full m-auto"
+          priority={true}
         />
       </div>
 
-      <div className="ml-4">
+      <div className="sm:ml-4">
         <h1 className="text-xl font-bold">
           {" "}
           Looking forward to create new complex software engineering projects.
@@ -34,7 +34,7 @@ export default function Contact() {
               rel="noopener noreferrer"
             >
               <button className="p-2 bg-purple-600 rounded-lg hover:bg-purple-800">
-                Get my resume
+                Resume
               </button>{" "}
             </a>{" "}
           </div>

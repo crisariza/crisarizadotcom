@@ -1,4 +1,5 @@
 import Image from "next/image";
+import codingPerson from "../public/codingPerson.png";
 
 export default function Highlight() {
   return (
@@ -13,11 +14,10 @@ export default function Highlight() {
       </div>
       <div className="w-auto lg:w-2/6">
         <Image
-          src="/draw.png"
-          alt="Person coding"
-          width={300}
-          height={150}
+          src={codingPerson}
+          alt="Coding Person"
           className="p-2"
+          priority={true}
         />
       </div>
     </div>
