@@ -1,5 +1,5 @@
 import Image from "next/image";
-import codingPerson from "../public/codingPerson.png";
+import codingPerson from "../public/codingPerson.svg";
 
 export default function Highlight() {
   return (
@@ -12,11 +12,10 @@ export default function Highlight() {
           over quantity.
         </p>
       </div>
-      <div className="m-auto sm:w-2/5">
+      <div className="m-auto sm:w-2/6">
         <Image
           src={codingPerson}
           alt="Coding Person"
-          className="p-2"
           priority={true}
           sizes="(max-width: 768px) 100vw,
           (max-width: 1200px) 50vw,
