@@ -1,20 +1,20 @@
 export default function Experience() {
   return (
-    <div className="lg:mb-10">
-      <h1 className="text-xl font-bold text-center mb-2 lg:mb-6">
+    <div className="mb-2 sm:mb-10">
+      <h1 className="text-xl font-bold text-center mb-4 sm:mb-4">
         Helping companies achieve their goals{" "}
       </h1>
       <div className="flex justify-center">
-        <div className="border border-neutral-500 bg-neutral-800 text-left text-white shadow-md hover:shadow-lg rounded-lg w-192 m-2 lg:m-4 p-4 space-y-4 text-xl">
-          <div className="flex justify-content flex-row-reverse ">
+        <div className="border border-neutral-500 bg-neutral-800 text-left text-white shadow-md hover:shadow-lg rounded-lg w-192 p-4 space-y-4">
+          <div className="flex justify-content flex-row-reverse text-lg sm:text-xl">
             {" "}
             <h1 className="text-neutral-300">Buenos Aires // Argentina</h1>
             <h1 className="text-purple-400 font-bold mr-auto">
               Front End Developer // Accenture
             </h1>
           </div>
-          <h2 className="text-lg text-neutral-300">June 2021 to Present</h2>{" "}
-          <ul className="text-lg text-neutral-100">
+          <h2 className="sm:text-lg text-neutral-300">June 2021 to Present</h2>{" "}
+          <ul className="sm:text-lg text-neutral-100">
             <li className="mt-2">
               • Developed a platform that managed +150 web applications,
               providing security solutions with a modern and simple to use
@@ -47,17 +47,19 @@ export default function Experience() {
           </ul>
         </div>
       </div>{" "}
-      <div className="flex justify-center">
-        <div className="border border-neutral-500	bg-neutral-800 text-left text-white shadow-md hover:shadow-lg rounded-lg w-192 m-2 lg:m-4 p-4 space-y-4">
-          <div className="flex justify-content flex-row-reverse text-xl">
+      <div className="flex justify-center mt-2">
+        <div className="border border-neutral-500	bg-neutral-800 text-left text-white shadow-md hover:shadow-lg rounded-lg w-192 mt-2 sm:mt-4 p-4 space-y-4">
+          <div className="flex justify-content flex-row-reverse text-lg sm:text-xl">
             {" "}
             <h1 className="text-neutral-300">Buenos Aires // Argentina</h1>
             <h1 className="text-purple-400 font-bold mr-auto">
-              Full Stack Developer // Henry Bootcamp
+              Full Stack Developer // Henry
             </h1>
           </div>
-          <h2 className="text-lg text-neutral-300">March 2021 to May 2021</h2>{" "}
-          <ul className="text-lg text-neutral-100">
+          <h2 className="sm:text-lg text-neutral-300">
+            March 2021 to May 2021
+          </h2>{" "}
+          <ul className="sm:text-lg text-neutral-100">
             <li className="mt-2">
               • Led the back-end and front end development of a 5+ person team
               creating an ecommerce website, providing useful features such as

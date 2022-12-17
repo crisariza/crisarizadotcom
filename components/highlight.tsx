@@ -7,17 +7,20 @@ export default function Highlight() {
       <div>
         {" "}
         <h1 className="text-xl font-bold">Engineering is my passion 🤝🏼</h1>
-        <p>
+        <p className="mt-4">
           Developer with 2+ years of experience. Dedicated to make quality code
           over quantity.
         </p>
       </div>
-      <div className="w-auto lg:w-2/6">
+      <div className="m-auto sm:w-2/5">
         <Image
           src={codingPerson}
           alt="Coding Person"
           className="p-2"
           priority={true}
+          sizes="(max-width: 768px) 100vw,
+          (max-width: 1200px) 50vw,
+          33vw"
         />
       </div>
     </div>
