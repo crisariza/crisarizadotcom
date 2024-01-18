@@ -10,17 +10,14 @@ export default function Contact() {
           alt="Profile Picture"
           className="rounded-full"
           priority={true}
-          sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
         />
       </div>
 
       <div className="sm:ml-5">
-        <h1 className="text-xl font-bold">
+        <h2 className="text-xl font-bold">
           {" "}
           Looking forward to create new complex software engineering projects.
-        </h1>
+        </h2>
         <p className="border-l-4 border-neutral-500 pl-5 mt-5">
           {" "}
           Thrilled to use programming skills to help an amazing company create a

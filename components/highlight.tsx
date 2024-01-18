@@ -6,11 +6,11 @@ export default function Highlight() {
     <div className="flex justify-content ">
       <div>
         {" "}
-        <h1 className="text-xl font-bold">Engineering is my passion 🤝🏼</h1>
-        <p className="mt-4">
+        <h2 className="text-xl font-bold">Engineering is my passion 🤝🏼</h2>
+        <h3 className="mt-4">
           Developer with 2+ years of experience. Dedicated to make quality code
           over quantity.
-        </p>
+        </h3>
       </div>
       <div className="m-auto sm:w-2/6">
         <Image

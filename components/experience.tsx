@@ -1,19 +1,19 @@
 export default function Experience() {
   return (
     <div className="mb-2 sm:mb-10">
-      <h1 className="text-xl font-bold text-center mb-4 sm:mb-4">
+      <h2 className="text-xl font-bold text-center mb-4 sm:mb-4">
         Helping companies achieve their goals{" "}
-      </h1>
+      </h2>
       <div className="flex justify-center">
         <div className="border border-neutral-500 bg-neutral-800 text-left text-white shadow-md hover:shadow-lg rounded-lg w-192 p-4 space-y-4">
           <div className="flex justify-content flex-row-reverse text-lg sm:text-xl">
             {" "}
-            <h1 className="text-neutral-300">Buenos Aires // Argentina</h1>
-            <h1 className="text-purple-400 font-bold mr-auto">
+            <h2 className="text-neutral-300">Buenos Aires // Argentina</h2>
+            <h2 className="text-purple-400 font-bold mr-auto">
               Front End Developer // Accenture
-            </h1>
+            </h2>
           </div>
-          <h2 className="sm:text-lg text-neutral-300">June 2021 to Present</h2>{" "}
+          <p className="sm:text-lg text-neutral-300">June 2021 to Present</p>{" "}
           <ul className="sm:text-lg text-neutral-100">
             <li className="mt-2">
               • Developed a platform that managed +150 web applications,
@@ -52,13 +52,11 @@ export default function Experience() {
           <div className="flex justify-content flex-row-reverse text-lg sm:text-xl">
             {" "}
             <h1 className="text-neutral-300">Buenos Aires // Argentina</h1>
-            <h1 className="text-purple-400 font-bold mr-auto">
+            <h2 className="text-purple-400 font-bold mr-auto">
               Full Stack Developer // Henry
-            </h1>
+            </h2>
           </div>
-          <h2 className="sm:text-lg text-neutral-300">
-            March 2021 to May 2021
-          </h2>{" "}
+          <p className="sm:text-lg text-neutral-300">March 2021 to May 2021</p>{" "}
           <ul className="sm:text-lg text-neutral-100">
             <li className="mt-2">
               • Led the back-end and front end development of a 5+ person team
