@@ -29,7 +29,7 @@ export default function Contact() {
           <div className="mr-5 mt-5">
             {" "}
             <a
-              href="https://crisariza.com/Cristian-Ariza_Resume_Front-End-Developer.pdf"
+              href="/Cristian Ariza Resume - Full Stack Developer.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

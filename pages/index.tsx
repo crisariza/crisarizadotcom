@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Cristian Ariza - Front End Developer, Software Engineer</title>
+        <title>Cristian Ariza - Full Stack Developer, Software Engineer</title>
         <meta
           name="description"
-          content="I'm Cristian Ariza. A Front End Developer, Software Engineer based in Buenos Aires."
+          content="I'm Cristian Ariza. A Full Stack Developer, Software Engineer based in Buenos Aires."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

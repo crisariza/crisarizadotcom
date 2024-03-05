@@ -10,7 +10,7 @@ export default function Experience() {
             {" "}
             <h2 className="text-neutral-300">Buenos Aires // Argentina</h2>
             <h2 className="text-purple-400 font-bold mr-auto">
-              Front End Developer // Accenture
+              Full Stack Developer // Accenture
             </h2>
           </div>
           <p className="sm:text-lg text-neutral-300">June 2021 to Present</p>{" "}
@@ -59,7 +59,7 @@ export default function Experience() {
           <p className="sm:text-lg text-neutral-300">March 2021 to May 2021</p>{" "}
           <ul className="sm:text-lg text-neutral-100">
             <li className="mt-2">
-              • Led the back-end and front end development of a 5+ person team
+              • Led the back-end and Full Stack development of a 5+ person team
               creating an ecommerce website, providing useful features such as
               secure authentication, automated emails to 100% of the user
               orders, payments an user-friendly paywall (Stripe), search the
