@@ -27,7 +27,7 @@ export default function Experience() {
             </li>
             <li className="mt-2">
               • Implemented security and data protection solutions to ensure
-              access control of users' personal data.
+              access control of users&apos; personal data.
             </li>
             <li className="mt-2">
               • Decreased the response times of the API by 20% through
